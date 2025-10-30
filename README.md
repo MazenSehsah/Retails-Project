@@ -86,3 +86,15 @@ This is the most powerful page. Unlike the first two pages, this report is a ful
 * **Purpose:** This page answers strategic questions like "What other products do our 'Wireless Mouse' buyers purchase?" or "Which stores does our VIP customer 'Ahmed Khaled' shop at?"
 
 <img src = "Images/Page3_Power BI.png">
+
+## 🏁 Conclusion
+
+This project successfully demonstrates the construction of a complete, end-to-end data analytics pipeline using a modern cloud stack. By leveraging **Azure Data Factory**, **Azure Databricks**, and **Azure Data Lake Storage**, raw transactional data from disparate sources was effectively ingested, processed, and transformed through a robust **Medallion Architecture**.
+
+The final result is a powerful, 3-page interactive **Power BI dashboard** that translates complex data into actionable business insights. The report strategically moves from high-level executive summaries (Pages 1 & 2) to a granular, dynamic, cross-analysis tool (Page 3), empowering stakeholders to move from raw data to strategic decisions effectively.
+
+This solution proves the viability of the Azure data stack for building scalable, manageable, and insightful analytics platforms.
+
+## 👤 Author
+
+**Mazen Sehsah** 
