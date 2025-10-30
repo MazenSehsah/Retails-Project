@@ -1,0 +1,51 @@
+store_id,product_id,customer_id,transaction_id,quantity,transaction_date,full_name,email,country,registration_date,product_name,category,price,store_name,location,total_amount
+3,8,101,58,3,2025-05-25,Ahmed Khaled,ahmed.khaled1@gmail.com,Egypt,2025-10-16,Desk Organizer,Accessories,399,Tech World Outlet,Qatar,1197
+4,9,102,59,5,2025-05-27,Sara Al Mansour,sara.almansour2@outlook.com,Saudi Arabia,2025-10-18,Dumbbell Set,Fitness,1999,Cairo Festival City Mall,Egypt,9995
+5,10,103,60,1,2025-05-29,Layla Kazemi,layla.kazemi3@yahoo.com,UAE,2025-10-19,Pen Drive 32GB,Electronics,599,Mega Plaza,Kuwait,599
+1,1,104,61,2,2025-06-01,Omar Farouk,omar.farouk4@gmail.com,Egypt,2025-10-17,Wireless Mouse,Electronics,800,City Mall Store,UAE,1600
+2,2,105,62,3,2025-06-03,Fatima Al Rashid,fatima.alrashid5@hotmail.com,Saudi Arabia,2025-10-15,Bluetooth Speaker,Electronics,1200,High Street Store,Saudi Arabia,3600
+3,3,106,63,4,2025-06-05,Yousef Nasser,yousef.nasser6@gmail.com,UAE,2025-10-16,Yoga Mat,Fitness,499,Tech World Outlet,Qatar,1996
+4,4,107,64,5,2025-06-07,Mona Hossam,mona.hossam7@yahoo.com,Egypt,2025-10-18,Laptop Stand,Accessories,999,Cairo Festival City Mall,Egypt,4995
+5,5,108,65,1,2025-06-09,Hassan Al Saud,hassan.alsaud8@outlook.com,Saudi Arabia,2025-10-19,Notebook Set,Stationery,149,Mega Plaza,Kuwait,149
+1,6,109,66,2,2025-06-11,Ayesha Khan,ayesha.khan9@gmail.com,UAE,2025-10-15,Water Bottle,Fitness,299,City Mall Store,UAE,598
+2,7,110,67,3,2025-06-13,Tamer Adel,tamer.adel10@hotmail.com,Egypt,2025-10-17,Smartwatch,Electronics,4999,High Street Store,Saudi Arabia,14997
+3,8,111,68,4,2025-06-15,Rania Saad,rania.saad11@gmail.com,Saudi Arabia,2025-10-16,Desk Organizer,Accessories,399,Tech World Outlet,Qatar,1596
+4,9,112,69,5,2025-06-17,Karim Hamed,karim.hamed12@yahoo.com,UAE,2025-10-18,Dumbbell Set,Fitness,1999,Cairo Festival City Mall,Egypt,9995
+5,10,113,70,1,2025-06-19,Laila Fouad,laila.fouad13@gmail.com,Egypt,2025-10-19,Pen Drive 32GB,Electronics,599,Mega Plaza,Kuwait,599
+1,1,114,71,3,2025-06-21,Sami Al Obaid,sami.alobaid14@outlook.com,Saudi Arabia,2025-10-15,Wireless Mouse,Electronics,800,City Mall Store,UAE,2400
+2,2,115,72,2,2025-06-23,Dina Samir,dina.samir15@hotmail.com,UAE,2025-10-17,Bluetooth Speaker,Electronics,1200,High Street Store,Saudi Arabia,2400
+3,3,116,73,1,2025-06-25,Adel Nabil,adel.nabil16@gmail.com,Egypt,2025-10-16,Yoga Mat,Fitness,499,Tech World Outlet,Qatar,499
+4,4,117,74,4,2025-06-27,Mariam Al Farsi,mariam.alfarsi17@outlook.com,Saudi Arabia,2025-10-18,Laptop Stand,Accessories,999,Cairo Festival City Mall,Egypt,3996
+5,5,118,75,5,2025-06-29,Omar Al Mazrouei,omar.almazrouei18@yahoo.com,UAE,2025-10-19,Notebook Set,Stationery,149,Mega Plaza,Kuwait,745
+1,6,119,76,2,2025-07-01,Nour Khalifa,nour.khalifa19@gmail.com,Egypt,2025-10-15,Water Bottle,Fitness,299,City Mall Store,UAE,598
+2,7,120,77,3,2025-07-03,Yara Saleh,yara.saleh20@hotmail.com,Saudi Arabia,2025-10-17,Smartwatch,Electronics,4999,High Street Store,Saudi Arabia,14997
+3,8,121,78,4,2025-07-05,Tariq Hassan,tariq.hassan21@gmail.com,UAE,2025-10-16,Desk Organizer,Accessories,399,Tech World Outlet,Qatar,1596
+4,9,122,79,1,2025-07-07,Lina Abdul,lina.abdul22@outlook.com,Egypt,2025-10-18,Dumbbell Set,Fitness,1999,Cairo Festival City Mall,Egypt,1999
+5,10,123,80,2,2025-07-09,Rami Al Zahrani,rami.alzahrani23@yahoo.com,Saudi Arabia,2025-10-19,Pen Drive 32GB,Electronics,599,Mega Plaza,Kuwait,1198
+4,4,124,54,5,2025-05-17,Samar Fouad,samar.fouad24@gmail.com,UAE,2025-10-15,Laptop Stand,Accessories,999,Cairo Festival City Mall,Egypt,4995
+5,5,125,55,1,2025-05-19,Huda Nasser,huda.nasser25@hotmail.com,Egypt,2025-10-17,Notebook Set,Stationery,149,Mega Plaza,Kuwait,149
+1,6,126,56,4,2025-05-21,Mohammed Al Amiri,mohammed.alamiri26@gmail.com,Saudi Arabia,2025-10-16,Water Bottle,Fitness,299,City Mall Store,UAE,1196
+2,7,127,57,2,2025-05-23,Leila Hassan,leila.hassan27@outlook.com,UAE,2025-10-18,Smartwatch,Electronics,4999,High Street Store,Saudi Arabia,9998
+1,1,101,31,3,2025-04-01,Ahmed Khaled,ahmed.khaled1@gmail.com,Egypt,2025-10-16,Wireless Mouse,Electronics,800,City Mall Store,UAE,2400
+2,2,102,32,2,2025-04-03,Sara Al Mansour,sara.almansour2@outlook.com,Saudi Arabia,2025-10-18,Bluetooth Speaker,Electronics,1200,High Street Store,Saudi Arabia,2400
+3,3,103,33,1,2025-04-05,Layla Kazemi,layla.kazemi3@yahoo.com,UAE,2025-10-19,Yoga Mat,Fitness,499,Tech World Outlet,Qatar,499
+4,4,104,34,5,2025-04-07,Omar Farouk,omar.farouk4@gmail.com,Egypt,2025-10-17,Laptop Stand,Accessories,999,Cairo Festival City Mall,Egypt,4995
+5,5,105,35,2,2025-04-09,Fatima Al Rashid,fatima.alrashid5@hotmail.com,Saudi Arabia,2025-10-15,Notebook Set,Stationery,149,Mega Plaza,Kuwait,298
+1,6,106,36,4,2025-04-11,Yousef Nasser,yousef.nasser6@gmail.com,UAE,2025-10-16,Water Bottle,Fitness,299,City Mall Store,UAE,1196
+2,7,107,37,1,2025-04-13,Mona Hossam,mona.hossam7@yahoo.com,Egypt,2025-10-18,Smartwatch,Electronics,4999,High Street Store,Saudi Arabia,4999
+3,8,108,38,3,2025-04-15,Hassan Al Saud,hassan.alsaud8@outlook.com,Saudi Arabia,2025-10-19,Desk Organizer,Accessories,399,Tech World Outlet,Qatar,1197
+4,9,109,39,2,2025-04-17,Ayesha Khan,ayesha.khan9@gmail.com,UAE,2025-10-15,Dumbbell Set,Fitness,1999,Cairo Festival City Mall,Egypt,3998
+5,10,110,40,5,2025-04-19,Tamer Adel,tamer.adel10@hotmail.com,Egypt,2025-10-17,Pen Drive 32GB,Electronics,599,Mega Plaza,Kuwait,2995
+1,1,111,41,1,2025-04-21,Rania Saad,rania.saad11@gmail.com,Saudi Arabia,2025-10-16,Wireless Mouse,Electronics,800,City Mall Store,UAE,800
+2,2,112,42,4,2025-04-23,Karim Hamed,karim.hamed12@yahoo.com,UAE,2025-10-18,Bluetooth Speaker,Electronics,1200,High Street Store,Saudi Arabia,4800
+3,3,113,43,2,2025-04-25,Laila Fouad,laila.fouad13@gmail.com,Egypt,2025-10-19,Yoga Mat,Fitness,499,Tech World Outlet,Qatar,998
+4,4,114,44,3,2025-04-27,Sami Al Obaid,sami.alobaid14@outlook.com,Saudi Arabia,2025-10-15,Laptop Stand,Accessories,999,Cairo Festival City Mall,Egypt,2997
+5,5,115,45,1,2025-04-29,Dina Samir,dina.samir15@hotmail.com,UAE,2025-10-17,Notebook Set,Stationery,149,Mega Plaza,Kuwait,149
+1,6,116,46,2,2025-05-01,Adel Nabil,adel.nabil16@gmail.com,Egypt,2025-10-16,Water Bottle,Fitness,299,City Mall Store,UAE,598
+2,7,117,47,5,2025-05-03,Mariam Al Farsi,mariam.alfarsi17@outlook.com,Saudi Arabia,2025-10-18,Smartwatch,Electronics,4999,High Street Store,Saudi Arabia,24995
+3,8,118,48,3,2025-05-05,Omar Al Mazrouei,omar.almazrouei18@yahoo.com,UAE,2025-10-19,Desk Organizer,Accessories,399,Tech World Outlet,Qatar,1197
+4,9,119,49,4,2025-05-07,Nour Khalifa,nour.khalifa19@gmail.com,Egypt,2025-10-15,Dumbbell Set,Fitness,1999,Cairo Festival City Mall,Egypt,7996
+5,10,120,50,2,2025-05-09,Yara Saleh,yara.saleh20@hotmail.com,Saudi Arabia,2025-10-17,Pen Drive 32GB,Electronics,599,Mega Plaza,Kuwait,1198
+1,1,121,51,3,2025-05-11,Tariq Hassan,tariq.hassan21@gmail.com,UAE,2025-10-16,Wireless Mouse,Electronics,800,City Mall Store,UAE,2400
+2,2,122,52,4,2025-05-13,Lina Abdul,lina.abdul22@outlook.com,Egypt,2025-10-18,Bluetooth Speaker,Electronics,1200,High Street Store,Saudi Arabia,4800
+3,3,123,53,2,2025-05-15,Rami Al Zahrani,rami.alzahrani23@yahoo.com,Saudi Arabia,2025-10-19,Yoga Mat,Fitness,499,Tech World Outlet,Qatar,998
