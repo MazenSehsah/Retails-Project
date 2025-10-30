@@ -20,7 +20,7 @@ Raw data from three source tables (**stores**, **products**, and **transactions*
 
 <img src = "Images/ADF Pipeline.png">
 
-![Raw data landed in the Bronze container of Azure Data Lake Storage.](path/to/your/data_lake_bronze_screenshot.png)
+<img src = "Images/Bronze Data.png">
 
 ### 2. Data Processing (Bronze → Silver → Gold)
 The raw data was read into an Azure Databricks cluster for processing using PySpark.
