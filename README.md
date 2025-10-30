@@ -18,7 +18,7 @@ The pipeline follows a modern Medallion Architecture (Bronze-Silver-Gold) implem
 ### 1. Data Ingestion (Source → Bronze Layer)
 Raw data from three source tables (**stores**, **products**, and **transactions**) was ingested using Azure Data Factory (ADF) pipelines. This raw, untouched data was landed in Azure Data Lake Storage (Gen2) as the **Bronze layer**.
 
-![Screenshot of the Azure Data Factory (ADF) pipeline orchestrating the data ingestion.](path/to/your/adf_pipeline_screenshot.png)
+<img src = "Images/ADF Pipeline.png">
 
 ![Raw data landed in the Bronze container of Azure Data Lake Storage.](path/to/your/data_lake_bronze_screenshot.png)
 
