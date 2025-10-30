@@ -25,10 +25,29 @@ Raw data from three source tables (**stores**, **products**, and **transactions*
 ### 2. Data Processing (Bronze → Silver → Gold)
 The raw data was read into an Azure Databricks cluster for processing using PySpark.
 
-* **Silver Layer:** Data from the three tables was joined, cleaned (handling nulls, correcting types), and business logic was applied to create a clean, unified, and query-ready master table.
-* **Gold Layer:** Specific business aggregations (the 8 insights) were pre-calculated from the Silver table to create optimized, smaller "data mart" tables for fast reporting.
+**Silver Layer:** Data from the three tables was joined, cleaned (handling nulls, correcting types), and business logic was applied to create a clean, unified, and query-ready master table.
 
-![Data transformation and aggregation logic within an Azure Databricks notebook.](path/to/your/databricks_notebook_screenshot.png)
+<img src = "Images/Silver Data.png">
+
+**Gold Layer:** Specific business aggregations (the 8 insights) were pre-calculated from the Silver table to create optimized, smaller "data mart" tables for fast reporting.
+
+<img src = "Images/Data.png">
+
+## 🗄️ Data Model Overview (Silver & Gold Layers)
+
+The project leverages a central Silver layer table for detailed analysis (Page 3) and several aggregated Gold layer tables (derived from Silver) for optimized summary reporting (Pages 1 & 2).
+
+| Data Layer   | Table Name (Example)        | Description                                                                                             
+| :----------- | :-------------------------- | :------------------------------------------------------------------------------------------------------ 
+| **Silver** | `retail_sales_silver.csv`   | Cleaned, joined, and unified master transaction data with all customer, product, and store details.      
+| **Gold** | `gold_country_revenue.csv`  | Total sales revenue aggregated by country.                                                              
+| **Gold** | `gold_store_sales.csv`      | Total sales revenue aggregated by each store.                                                           
+| **Gold** | `gold_country_customer.csv` | Count of unique customers per country.                                                                  
+| **Gold** | `gold_category_sales.csv`   | Total sales revenue aggregated by product category.                                                    
+| **Gold** | `gold_top_products.csv`     | Top products by total amount, segmented by country.                                                     
+| **Gold** | `gold_country_transaction.csv`| Count of transactions per country, segmented by category.                                               
+| **Gold** | `gold_customer_loyalty.csv` | Customer names with their respective transaction counts (for loyalty analysis).                           
+| **Gold** | `gold_price_sensitivity.csv`| Average price and quantity per product/category for price elasticity analysis.                            
 
 ### 3. Data Visualization (Loading → Power BI)
 Two data loading strategies were used for the Power BI report:
@@ -46,7 +65,7 @@ A static "bird's-eye view" for executives. It answers: "How are we performing ov
 * **KPIs:** Total Revenue, Total Customers, and Store Count.
 * **Visuals:** A geographical map (`Map`) for revenue by country, a bar chart (`Bar Chart`) for top-performing stores, and a donut chart (`Donut Chart`) for customer distribution.
 
-![Page 1: The high-level executive summary dashboard.](path/to/your/powerbi_page1_screenshot.png)
+<img src = "Images/Page1_Power BI.png">
 
 ### Page 2: Product & Category Analysis
 A static deep-dive into product performance. It answers: "What are we selling, and where?"
@@ -54,7 +73,7 @@ A static deep-dive into product performance. It answers: "What are we selling, a
 * **Key Visual (Matrix):** A drill-down `Matrix` showing the top products sold within each country (Insight 3).
 * **Supporting Visuals:** Bar charts (`Bar Chart`) showing revenue by category (Insight 5) and transaction counts by category and country (Insight 2).
 
-![Page 2: Product & Category deep-dive analysis.](path/to/your/powerbi_page2_screenshot.png)
+<img src = "Images/Page2_Power BI.png">
 
 ### Page 3: The "Cross-Analysis" Dynamic Dashboard
 This is the most powerful page. Unlike the first two pages, this report is a fully dynamic analytical tool built on the clean Silver table. It allows users to perform root-cause analysis.
@@ -66,4 +85,4 @@ This is the most powerful page. Unlike the first two pages, this report is a ful
     * A bar chart ("Related Stores") that updates to show **which stores** are relevant to the selected customer or product.
 * **Purpose:** This page answers strategic questions like "What other products do our 'Wireless Mouse' buyers purchase?" or "Which stores does our VIP customer 'Ahmed Khaled' shop at?"
 
-![Page 3: The dynamic Cross-Analysis tool for deep-dive investigation.](path/to/your/powerbi_page3_screenshot.png)
+<img src = "Images/Page3_Power BI.png">
